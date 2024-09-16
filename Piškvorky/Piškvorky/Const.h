@@ -1,0 +1,11 @@
+const int BUTTON_WIDTH = 300;
+const int BUTTON_HEIGHT = 50;
+const int TRACKBAR_WIDTH = 300;
+const int LABEL_HEIGHT = 15;
+const int TRACKBAR_HEIGHT = 30;
+const int TRACKBAR_MIN = 3;
+const int TRACKBAR_MIN_Alt = 1;
+const int TRACKBAR_MAX_H = 10;
+const int TRACKBAR_MAX_W = 26;
+const int TRACKBAR_MAX_C = 5;
+const int TRACKBAR_MAX_P = 2;
