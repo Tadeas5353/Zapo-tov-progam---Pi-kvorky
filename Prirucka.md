@@ -16,6 +16,9 @@ Pokud chce hráč hrát s počítačem, tak má na výběr tři boty. První je 
 
 Po zvolení parametrů se uprostřed obrazovky vykrelsí hrací plocha a v ní se ukazují pole zabraná jednotlivými symboly. Jako první začínají vždy kroužky. Hráč, který je na tahu má v dolní části obrazovky možnost nastavit souřadnice políčka, na které chce umístit svůj symbol. Po té co si svou volbu důkladně promyslí ji ještě musí potvrdit tlačítkem vlevo dole.
 
+## Boti
+
+Jak bylo řečeno, ve hře jsou tři boti. První z nich, „opilec“ hraje své tahy čistě náhodně. Boti „začátečník“ a „opilec“ pak fungují oba dva na stejném principu. Procházejí hrací plochu a zjišťují si výhodnost jednotlivých políček. Berou při tom v potaz počet obsazených sousedních políček, možnost vytvořit dvojice, trojice či čtveice stejných symbolů v jedné řadě nebo naopak zabránit v tomhle soupeři. Ani jeden bot nehledá jedno optimální políčko, nicméně políčkům nastavuje pravděpodobnost, se kterou se zahrají (lepší políčka můžou mít až desetitisíckrát větší pravděpodobnost na zahrání než horší). Jedinou výjimkou je, pokud pokročilý bot vidí možnost sestrojit řadu o požadovaném počtu znaků nebo naopak soupeři zabránit v sestrojení této řady. Boti se od sebe liší pravděpodobnostími hodnotami (začátečník spíše vybere horší políčko než pokročilý bot) a mírou podrobnosti zkoumání jednotlivých políček (políčko, které pokročilý bot vybere jako nějak zajímavé může bot začátečník vyhodnotit jako zbytečné).
 Během hry se také zvýrazňuje poslední zahraný symbol. Toto slouží k většímu přehledu o hře.
 
 ## Konec hry
