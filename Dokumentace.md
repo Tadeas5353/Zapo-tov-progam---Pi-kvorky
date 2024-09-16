@@ -49,3 +49,7 @@ Obdobně jako přechozí část, akorát funkce zjednodušují fungování okna.
 ## Const.h
 
 Vypsání několika důležitých konstant, se kterými se v kódu pracuje.
+
+## Možná rozšíření
+
+Hra by se do budoucna dala vylepšit zvětšením možností pro rozměry hrací plochy, či počtem políček potřebných k výhře. Kromě těchto vylepšení jednodušího technického rázu se dá ještě uvažovat o přidání dalších botů různých úrovní. Zlepšit by se dala i grafika hry, či přidat tlačítko pro uživatelskou nápovědu. Jako pokročilejší forma rozšíření se nabízí možnost hrát online.
