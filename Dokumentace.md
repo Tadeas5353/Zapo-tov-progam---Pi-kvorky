@@ -16,7 +16,7 @@ V této části kódu, ve které běží celý program dochází ke spuštění 
 
 Zde je definována třída window, ve které porbíhá obsluha celé grafické části programu a současně krokování jednotlivých akcí.
 
-Celkově se v okně postupně využívá sedm tlačítek a sedm sliderů na obsluhu hry, dále sev okně objevují labely pro popisky a zobrazování vybraných hodnot. Důležitou součástí je ještě funkce DrawTable, která vykresluje aktuální stav hrací plochy. 
+Celkově se v okně postupně využívá sedm tlačítek a sedm sliderů na obsluhu hry, dále se v okně objevují labely pro popisky a zobrazování vybraných hodnot. Důležitou součástí je ještě funkce DrawTable, která vykresluje aktuální stav hrací plochy. 
 
 K postupnému hraní je nejvíce využívána hlavně trojice funkcí hraje_krizek, hraje_krouzek a dohrano.
 
