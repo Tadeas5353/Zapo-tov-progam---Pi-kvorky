@@ -34,9 +34,9 @@ Obsahuje třídu Policko, která uchovává informace u o jednotlivých polích.
 
 Funkce na vytvoření takzvané „pseudoplochy“, která je využívaná v tazích bota k hodnocení jednotlivých tahů.
 
-## CheckW.h
+## CheckW.h and WCheck.h
 
-Funkce, která prochází po zadání nového políčka kontroluje zda hráč nepoložil dostatečný počet symbolů vedle sebe. Používá se též pro hledání tahu pro boty.
+Funkce, které prochází po zadání nového políčka hrací plochu a kontrolují zda hráč nepoložil dostatečný počet symbolů vedle sebe. Používá se též pro hledání tahu pro boty.
 
 ## Tech.h
 
